@@ -4,7 +4,7 @@ Robert C. Martin introduced the ideas in 1995. This was in response to a pattern
 
 There was too much dependency happening!
 
-## SIMPTOMS of BADE CODE
+## SIMPTOMS of BAD CODE
 ### RIGITY
 Every change affects many other parts
 
@@ -16,7 +16,12 @@ Cannot reuse code otside of this original context
 
 ## SOLID Principles
 <ul>
-    <li>S - Single-responsability principle</li>
+    <li>
+        S - Single-responsability principle
+        <p>A class should have only one reason to change</p>
+        <p>A class should be responsible for a single task</p>
+        <p>A class should only depend on one part of the business</p>
+    </li>
     <li>O - Open-closed principle</li>
     <li>L - Liskov substituition principle</li>
     <li>I - Interface segregation principle</li>
